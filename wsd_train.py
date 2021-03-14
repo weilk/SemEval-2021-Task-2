@@ -76,7 +76,7 @@ def process_sentence(sentence, ranges):
 
 
 def load_dataSet(text_json, label_json):
-    """加载text_json和label_json
+    """load text_json and label_json
     """
     dataX, dataY = [], []
     text_dict, label_dict = load_json(text_json), load_json(label_json)
